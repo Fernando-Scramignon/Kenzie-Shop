@@ -17,6 +17,8 @@ export const Container = styled.header`
     flex-direction: column;
     align-items: center;
 
+    cursor: pointer;
+
     h1 {
       font-size: 1.5rem;
       font-family: "Nunito";

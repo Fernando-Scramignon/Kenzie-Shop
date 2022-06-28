@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <Container>
-      <div className="logo">
+      <div className="logo" onClick={() => history.push("/")}>
         <h1>Kenzie Shop</h1>
         <span>books</span>
       </div>
